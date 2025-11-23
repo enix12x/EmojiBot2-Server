@@ -10,7 +10,7 @@ User=collabvm
 Group=collabvm
 Type=simple
 
-WorkingDirectory=/srv/collabvm/bots/EmojiBot
+WorkingDirectory=/srv/collabvm/bots/EmojiBot2-Server
 ExecStart=/bin/node dist/index.js
 
 Restart=always
