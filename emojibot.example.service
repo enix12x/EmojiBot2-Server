@@ -1,0 +1,20 @@
+[Unit]
+Description=EmojiBot
+
+Wants=collabvmts@vm1.service
+#Wants=collabvm@vm2.service
+After=network.target
+
+[Service]
+User=collabvm
+Group=collabvm
+Type=simple
+
+WorkingDirectory=/srv/collabvm/bots/EmojiBot
+ExecStart=/bin/node dist/index.js
+
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,32 @@
+{
+  "prefix": "-",
+  "vms": [
+    {
+      "url": "wss://computernewb.com/collab-vm/vm0",
+      "nodeId": "vm0b0t",
+      "origin": "https://computernewb.com"
+    },
+    {
+      "url": "wss://computernewb.com/collab-vm/vm1",
+      "nodeId": "vm1",
+      "origin": "https://computernewb.com"
+    }
+  ],
+  "authType": "password",
+  "adminPassword": "your-admin-password-here",
+  "botToken": "",
+  "loginAs": "admin",
+  "username": "EmojiBot",
+  "colonEmoji": true,
+  "database": {
+    "host": "localhost",
+    "user": "emojibot",
+    "password": "your-database-password-here",
+    "database": "emojibot",
+    "port": 3306
+  },
+  "apiPort": 3000,
+  "apiSecret": "change-this-to-a-random-secret-string",
+  "apiUrl": "http://localhost:3000"
+}
+
