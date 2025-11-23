@@ -1,7 +1,7 @@
 [Unit]
 Description=EmojiBot
 
-Wants=collabvmts@vm1.service
+Wants=collabvm@vm1.service
 #Wants=collabvm@vm2.service
 After=network.target
 
